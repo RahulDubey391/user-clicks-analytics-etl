@@ -116,3 +116,13 @@ Since, we don't want to choose the 2023 data to be in Conformed layer, I'll drop
 
 <img width="779" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/4efd60fd-f711-4059-95e0-3a30da8ba07e">
 
+## The data is partitioned by month column, also we'll drop the duplicates
+
+<img width="778" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/e023134f-e1fe-4d64-855b-00505f1a3ef8">
+
+## Creating views for Consumption
+
+We'll create views specific to dashboard needs. Since each dashboard will be used by a separate user, we don't want to expose other user information. So we'll use filters to select only the user based on UserID
+
+
+
