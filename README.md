@@ -124,5 +124,4 @@ Since, we don't want to choose the 2023 data to be in Conformed layer, I'll drop
 
 We'll create views specific to dashboard needs. Since each dashboard will be used by a separate user, we don't want to expose other user information. So we'll use filters to select only the user based on UserID
 
-
-
+<img width="776" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/38044ad2-d20a-4fba-9ec8-d57cca76118a">
