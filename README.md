@@ -83,3 +83,27 @@ You will be asked assign permissions to your external location bucket, set so in
 
 <img width="939" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/5ef1e9cb-c5e9-4b2c-be38-42d317bc2f79">
 
+# Setting up Schema Layers for your Data Lake
+
+## Create a Notebook and attach the Compute Cluster. Once done you can fire up the queries to create schema
+<img width="925" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/58d94a75-c6b2-43ed-82f9-22bae1b5b56d">
+
+Logically, the schema I am using is analogus to the Medallion architecture. You can use other names as well.
+
+# Reading, Transforming and Storing External Data
+
+## Read the file (in my case its a 1.4 GB CSV file) with the optional fields.
+
+<img width="770" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/4342857e-a87e-47b7-9356-7ddff0d7431b">
+
+You'll notice, I am also printing out the Number of Partitions and Max Byte Size for partition.
+
+## Transforming the data by processing Year, Month, Day to Date format and applying ordering
+
+<img width="785" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/8550ae06-aa11-4886-8f68-6e4654274017">
+
+I am also applying sorting based on each column so that we can get benefitted while writing as partitions
+
+## Storing Data as Delta Table in Landing Layer
+
+
