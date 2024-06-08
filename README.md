@@ -106,4 +106,13 @@ I am also applying sorting based on each column so that we can get benefitted wh
 
 ## Storing Data as Delta Table in Landing Layer
 
+<img width="775" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/8bbd6967-ff2b-44c2-915b-f8adddb6a00d">
+
+Once the table is created in the Landing layer, you'll see that the table appears with Column specification. Although the data is partitioned, but still further cleaning is required to remove duplicates and other things to make it suitable for Conformed layer.
+
+## Transforming data in Landing layer to store in Conformed layer
+
+Since, we don't want to choose the 2023 data to be in Conformed layer, I'll drop those records. Also for duplicates, I'll remove them as well
+
+<img width="779" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/4efd60fd-f711-4059-95e0-3a30da8ba07e">
 
