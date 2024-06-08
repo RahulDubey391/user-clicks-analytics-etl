@@ -55,4 +55,31 @@ This will enable Workspace to utilize the Unity Catalog both for your Lakehouse 
 
 <img width="715" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/d4d0a30e-a24f-4afb-bb40-b198e3f1cf7e">
 
+# Create Storage Credentials and External Location
+
+While the Compute Cluster is being created, you can attach the external location (outside bucket) if you have some data to be brought in the Databricks. 
+
+## In Catalog tab, select the "Add Data" drop down and then select "Add a storage credential"
+
+<img width="956" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/1779c667-803d-4317-80c2-8de387f46c19">
+
+## Set the values for the form and click "Create"
+
+<img width="488" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/48086e0d-fae6-40d4-b83b-e5f0fe6764a5">
+
+You will be asked assign permissions to your external location bucket, set so in your Cloud Provider
+
+<img width="415" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/2dc3fd70-d46a-4467-96d4-1699b6eca7c2">
+
+## Once done, go to Catalog tab again and click "Add External Location"
+
+<img width="954" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/adab67c0-36f7-4b4b-b1c6-de98c0b070b3">
+
+## Fill in the form with appropriate details and click "Create"
+
+<img width="587" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/6a4b38a1-450d-41fe-810f-5c022ae5e191">
+
+## Once the external location is created successfully, you can test the connection if the objects in your external bucket is visible to Databricks
+
+<img width="939" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/5ef1e9cb-c5e9-4b2c-be38-42d317bc2f79">
 
