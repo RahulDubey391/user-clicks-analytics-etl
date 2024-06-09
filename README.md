@@ -1,6 +1,9 @@
 # user-clicks-analytics-etl
 Databricks data pipeline for ingesting and processing data with data warehouse layers
 
+![databricks-datawarehouse-design](https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/be5c0167-acb0-4f09-bd46-500e86d0b061)
+
+
 # Creating Metastore bucket - GCS
 
 <img width="410" alt="image" src="https://github.com/RahulDubey391/user-clicks-analytics-etl/assets/100185371/270c1ae3-a580-45c3-8fd5-0a791227032d">
